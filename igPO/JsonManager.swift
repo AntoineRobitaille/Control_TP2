@@ -23,6 +23,7 @@ class JsonManager
         self.jsonParsed = self.parser(self.urlToJsonFile)
     }
     /* ------------------------------------- */
+    //--- Lors de l'enregistrement des données dans le json
     func upload(_ stringToSend: String, urlForAdding: String)
     {
         let url:URL = URL(string: urlForAdding)!
@@ -49,6 +50,7 @@ class JsonManager
         task.resume()
     }
     /* ------------------------------------- */
+    //--- Retourne les informations qui sont dans le JSON
     func returnValues(_ dataIndex: Int) -> [String]
     {
         var arrayForData: [String] = []
@@ -61,6 +63,7 @@ class JsonManager
         return arrayForData
     }
     /* ------------------------------------- */
+    //--- Retourne la clé correspondante
     func returnKeys() -> [String]
     {
         var arrayForData: [String] = []
@@ -73,6 +76,7 @@ class JsonManager
         return arrayForData
     }
     /* ------------------------------------- */
+    //--- Converti les informationd json en csv
     func converJsonToCsv(_ fieldNamesSeperatedByComas: String) -> String
     {
         var CSV: String = "\(fieldNamesSeperatedByComas)\n"
@@ -99,6 +103,7 @@ class JsonManager
         return CSV.substring(to: CSV.characters.index(before: CSV.endIndex))
     }
     /* ------------------------------------- */
+    //--- Filtre les methodes selon les paramètres envoyés 
     func filter(_ index: Int, title: String) -> String
     {
         var strToDisplay = "\(title) :\n"

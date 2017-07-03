@@ -1,6 +1,7 @@
 //=================================
 import UIKit
 //=================================
+//--- Contrôleur pour la page admin
 class EntriesController: UIViewController
 {
     /* ---------------------------------------*/
@@ -30,12 +31,14 @@ class EntriesController: UIViewController
         super.didReceiveMemoryWarning()
     }
     /* ---------------------------------------*/
+    //--- Initialise le style de la tableView
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         tableView.backgroundColor = UIColor.clear
         return self.names.count
     }
     /* ---------------------------------------*/
+    //--- Initialise les données qui sont entrées dans la table
     func tableView(_ tableView: UITableView, cellForRowAtIndexPath indexPath: IndexPath) -> UITableViewCell
     {
         let cell:UITableViewCell = (self.theTableView.dequeueReusableCell(withIdentifier: "po")! as UITableViewCell)
@@ -71,12 +74,14 @@ class EntriesController: UIViewController
         return cell
     }
     /* ---------------------------------------*/
+    //--- Initialise la couleur d'arrière-plan
     func tableView(_ tableView: UITableView, didSelectRowAtIndexPath indexPath: IndexPath)
     {
         let selectedCell:UITableViewCell = tableView.cellForRow(at: indexPath)!
         selectedCell.contentView.backgroundColor = UIColor.lightGray
     }
     /* ---------------------------------------*/
+    //--- Fonction lorsque l'utilisateur supprime l'entrée 
     func tableView(_ tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: IndexPath)
     {
         if editingStyle == UITableViewCellEditingStyle.delete

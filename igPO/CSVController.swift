@@ -22,6 +22,7 @@ class CSVController: UIViewController
         super.didReceiveMemoryWarning()
     }
     /* ---------------------------------------*/
+    //--- Fonction clique sur les boutons de filtrations
     @IBAction func buttonsForFiltering(_ sender: UIButton)
     {
         var strToDisplay = ""
@@ -46,6 +47,7 @@ class CSVController: UIViewController
         }
     }
     /* ---------------------------------------*/
+    //--- Fonction pour afficher l'intérêt pour chaque programme
     @IBAction func programInterests(_ sender: UIButton)
     {
         self.listOfSelectedPrograms = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -87,6 +89,7 @@ class CSVController: UIViewController
         self.cvsTextView.text = s
     }
     /* ---------------------------------------*/
+    //--- Fonction pour afficher le niveau de popularité de chaque média
     func mostEfficientMedia()
     {
         self.listOfMedias = [0, 0, 0, 0, 0, 0, 0, 0]
@@ -124,6 +127,7 @@ class CSVController: UIViewController
         self.cvsTextView.text = s
     }
     /* ---------------------------------------*/
+    //--- Fonction pour réinitialiser toutes les données
     @IBAction func reset(_ sender: UIButton)
     {
         let refreshAlert = UIAlertController(title: "Réinialisation", message: "Vous voulez vraiment tout réinitialiser?", preferredStyle: UIAlertControllerStyle.alert)
@@ -138,6 +142,7 @@ class CSVController: UIViewController
         present(refreshAlert, animated: true, completion: nil)
     }
     /* ---------------------------------------*/
+    //--- Confirmation pour l'effacement des données
     func reallyDoReset()
     {
         self.jsonManager.upload("delete=reset", urlForAdding: "http://www.igweb.tv/ig_po/php/delete.php")

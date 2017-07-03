@@ -1,6 +1,7 @@
 //=================================
 import UIKit
 //=================================
+//--- Contrôleur pour la page d'inscription
 class ViewController: UIViewController
 {
     /* ---------------------------------------*/
@@ -55,6 +56,7 @@ class ViewController: UIViewController
         }
     }
     /* ---------------------------------------*/
+    //--- Gère les programmes sélectionné par l'utilisateur
     func manageSelectedPrograms() -> String
     {
         var stringToReturn: String = ". "
@@ -66,8 +68,8 @@ class ViewController: UIViewController
                 stringToReturn += arrProgramNames[x] + "\n. "
             }
         }
-        
-        // Delete 3 last characters of string...
+       
+        // Supprime le retour de charriot a la fin du dernier élément
         if stringToReturn != ""
         {
             stringToReturn = stringToReturn.substring(to: stringToReturn.characters.index(before: stringToReturn.endIndex))
@@ -83,6 +85,7 @@ class ViewController: UIViewController
         super.didReceiveMemoryWarning()
     }
     /* ---------------------------------------*/
+    //--- Fonction lorsqu'on appui sur le bouton du choix du programme
     @IBAction func buttonManager(_ sender: UIButton)
     {
         let buttonIndexInArray = sender.tag - 100
@@ -99,6 +102,7 @@ class ViewController: UIViewController
         }
     }
     /* ---------------------------------------*/
+    //--- Désélectionne tout les programmes après une sauvegarde
     func deselectAllButtons()
     {
         for x in 0 ..< arrForButtonManagement.count
@@ -109,6 +113,7 @@ class ViewController: UIViewController
         }
     }
     /* ---------------------------------------*/
+    //--- Fonction qui s'exécute lorsqu'on appuie sur le bouton sauvegarder
     @IBAction func saveInformation(_ sender: UIButton)
     {
         if name.text == "" || phone.text == "" || email.text == ""
@@ -135,6 +140,7 @@ class ViewController: UIViewController
         alert("Les données ont été sauvegardées...")
     }
     /* ---------------------------------------*/
+    //--- Message d'alerte si les données ont bien été sauvegardés
     func alert(_ theMessage: String)
     {
         let refreshAlert = UIAlertController(title: "Message...", message: theMessage, preferredStyle: .alert)
@@ -143,6 +149,7 @@ class ViewController: UIViewController
         present(refreshAlert, animated: true){}
     }
     /* ---------------------------------------*/
+    //--- Réinitialise les données entrées par l'utilisateur
     func clearFields()
     {
         name.text = ""
@@ -150,12 +157,14 @@ class ViewController: UIViewController
         email.text = ""
     }
     /* ---------------------------------------*/
+    //--- Permet de cacher le clavier lorsqu'on appuie sur "done"
     func textFieldShouldReturn(_ textField: UITextField!) -> Bool
     {
         textField.resignFirstResponder()
         return true
     }
     /* ---------------------------------------*/
+    //--- Lorsqu'on choisi un media
     @IBAction func mediaButtons(_ sender: UIButton)
     {
         resetAllMediaButtonAlphas()
@@ -172,6 +181,7 @@ class ViewController: UIViewController
         }
     }
     /* ---------------------------------------*/
+    //--- Réinitialise les boutons media
     func resetAllMediaButtonAlphas()
     {
         for index in 0 ..< arrMediaButtons.count
@@ -180,6 +190,7 @@ class ViewController: UIViewController
         }
     }
     /* ---------------------------------------*/
+    //--- vérifie si l'utilisateur a bien choisi un media
     func checkMediaSelection() -> Bool
     {
         var chosen = false
