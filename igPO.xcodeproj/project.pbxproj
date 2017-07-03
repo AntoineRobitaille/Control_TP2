@@ -33,6 +33,7 @@
 		07A503F71CB2FE3900E56CDF /* 167.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A503ED1CB2FE3900E56CDF /* 167.png */; };
 		07A503F81CB2FE3900E56CDF /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A503EE1CB2FE3900E56CDF /* 180.png */; };
 		07A503FA1CB317ED00E56CDF /* CSVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A503F91CB317ED00E56CDF /* CSVController.swift */; };
+		9BE816211F0A81590055134F /* AdminController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE816201F0A81590055134F /* AdminController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		07A503ED1CB2FE3900E56CDF /* 167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 167.png; path = Images/167.png; sourceTree = "<group>"; };
 		07A503EE1CB2FE3900E56CDF /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 180.png; path = Images/180.png; sourceTree = "<group>"; };
 		07A503F91CB317ED00E56CDF /* CSVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVController.swift; sourceTree = "<group>"; };
+		9BE816201F0A81590055134F /* AdminController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdminController.swift; path = ../AdminController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				07040CD81CAD916400AA29C6 /* AppDelegate.swift */,
 				07040CDA1CAD916400AA29C6 /* ViewController.swift */,
 				07407F6D1CB2BAE7009152E4 /* EntriesController.swift */,
+				9BE816201F0A81590055134F /* AdminController.swift */,
 				07A503F91CB317ED00E56CDF /* CSVController.swift */,
 				07040CDC1CAD916400AA29C6 /* Main.storyboard */,
 				07407F6B1CB1BF49009152E4 /* JsonManager.swift */,
@@ -237,6 +240,7 @@
 				07407F6E1CB2BAE7009152E4 /* EntriesController.swift in Sources */,
 				07407F6C1CB1BF49009152E4 /* JsonManager.swift in Sources */,
 				07040CDB1CAD916400AA29C6 /* ViewController.swift in Sources */,
+				9BE816211F0A81590055134F /* AdminController.swift in Sources */,
 				07040CD91CAD916400AA29C6 /* AppDelegate.swift in Sources */,
 				07A503FA1CB317ED00E56CDF /* CSVController.swift in Sources */,
 			);

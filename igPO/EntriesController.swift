@@ -1,7 +1,7 @@
 //=================================
 import UIKit
 //=================================
-//--- Contrôleur pour la page admin
+//--- Contrôleur pour la page des entrées
 class EntriesController: UIViewController
 {
     /* ---------------------------------------*/
