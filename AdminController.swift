@@ -53,6 +53,7 @@ class AdminController: UIViewController{
             bouton.setTitle("CONFIRMER", for: .normal)
             motDePasse.isSecureTextEntry = true
         }
+        motDePasse.text = ""
     }
     
     
