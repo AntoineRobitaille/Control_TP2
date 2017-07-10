@@ -966,7 +966,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VoN-Cf-ar0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1723" y="257"/>
+            <point key="canvasLocation" x="1634" y="257"/>
         </scene>
         <!--Admin Controller-->
         <scene sceneID="T00-fV-eR5">
@@ -1104,7 +1104,7 @@
         <image name="save.png" width="519" height="333"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="eWv-qU-c3J"/>
+        <segue reference="34R-z7-7Gr"/>
         <segue reference="ue6-cn-uc3"/>
     </inferredMetricsTieBreakers>
 </document>
