@@ -40,12 +40,26 @@ class ViewController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        
-        arrMediaButtons = [amis, radio, pub_internet, journaux, moteur, sociaux, tv, autres]
-        
-        jsonManager.importJSON()
-        
-        fillUpArray()
+
+    }
+    /* ---------------------------------------*/
+    override func viewDidAppear(_ animated: Bool) {
+
+        if AccesReseau.estConnecte(){
+            print("Internet ok")
+            
+            arrMediaButtons = [amis, radio, pub_internet, journaux, moteur, sociaux, tv, autres]
+            jsonManager.importJSON()
+            fillUpArray()
+        }
+        else{
+            print("Pas d'internet")
+            let alerte = UIAlertController(title: "Pas de connection Internet", message:"Essayer de configurer votre connection dans les réglages", preferredStyle: UIAlertControllerStyle.alert)
+            alerte.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            
+            self.present(alerte,animated: true, completion: nil)
+        }
+
     }
     /* ---------------------------------------*/
     func fillUpArray()

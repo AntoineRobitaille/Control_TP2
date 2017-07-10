@@ -34,6 +34,7 @@
 		07A503F81CB2FE3900E56CDF /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A503EE1CB2FE3900E56CDF /* 180.png */; };
 		07A503FA1CB317ED00E56CDF /* CSVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A503F91CB317ED00E56CDF /* CSVController.swift */; };
 		9BE816211F0A81590055134F /* AdminController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE816201F0A81590055134F /* AdminController.swift */; };
+		9BE816861F13B8CF0055134F /* verifierReseau.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE816851F13B8CF0055134F /* verifierReseau.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		07A503EE1CB2FE3900E56CDF /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 180.png; path = Images/180.png; sourceTree = "<group>"; };
 		07A503F91CB317ED00E56CDF /* CSVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVController.swift; sourceTree = "<group>"; };
 		9BE816201F0A81590055134F /* AdminController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdminController.swift; path = ../AdminController.swift; sourceTree = "<group>"; };
+		9BE816851F13B8CF0055134F /* verifierReseau.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = verifierReseau.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				9BE816201F0A81590055134F /* AdminController.swift */,
 				07A503F91CB317ED00E56CDF /* CSVController.swift */,
 				07040CDC1CAD916400AA29C6 /* Main.storyboard */,
+				9BE816851F13B8CF0055134F /* verifierReseau.swift */,
 				07407F6B1CB1BF49009152E4 /* JsonManager.swift */,
 				07040CDF1CAD916400AA29C6 /* Assets.xcassets */,
 				07040CE11CAD916400AA29C6 /* LaunchScreen.storyboard */,
@@ -239,6 +242,7 @@
 			files = (
 				07407F6E1CB2BAE7009152E4 /* EntriesController.swift in Sources */,
 				07407F6C1CB1BF49009152E4 /* JsonManager.swift in Sources */,
+				9BE816861F13B8CF0055134F /* verifierReseau.swift in Sources */,
 				07040CDB1CAD916400AA29C6 /* ViewController.swift in Sources */,
 				9BE816211F0A81590055134F /* AdminController.swift in Sources */,
 				07040CD91CAD916400AA29C6 /* AppDelegate.swift in Sources */,
