@@ -650,7 +650,7 @@
                                         <rect key="frame" x="0.0" y="28" width="688" height="173"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Y3d-HY-Dim" id="Tbv-lJ-ZGt">
-                                            <rect key="frame" x="0.0" y="0.0" width="688" height="172.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="688" height="172"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="200" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nom" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GrI-k2-lpJ">
@@ -1249,6 +1249,111 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Cjl-P1-OEp">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="347" placeholderIntrinsicHeight="40" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7v-1q-SXN">
+                                <rect key="frame" x="60" y="599" width="668" height="99"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="99" id="cMt-SJ-uXR"/>
+                                </constraints>
+                                <string key="text">Il est possible de copier les informations en tenant appuyer sur l'écran et relâcher pour faire apparaitre l'option select all et ensuite copier les informations pour pouvoir les coller dans un bloc-notes ou un courriel</string>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="28"/>
+                                <color key="textColor" red="0.0061955091139999996" green="0.40543733949999999" blue="0.41088474679999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.51659214229999995" green="0.51659214229999995" blue="0.51659214229999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="347" placeholderIntrinsicHeight="40" text="Les boutons suivants servent a classer les données amassés selon le filtre choisi" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZm-DS-Fug">
+                                <rect key="frame" x="60" y="277" width="532" height="99"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="99" id="55O-0F-Tqi"/>
+                                    <constraint firstAttribute="width" constant="532" id="Ea8-EV-fV8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="28"/>
+                                <color key="textColor" red="0.0061955091139999996" green="0.40543733949999999" blue="0.41088474679999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.51659214229999995" green="0.51659214229999995" blue="0.51659214229999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="347" placeholderIntrinsicHeight="40" text="*ATTENTION* Ce bouton sert à réinitialiser toutes les données amassés." lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e86-AD-kYx">
+                                <rect key="frame" x="252" y="475" width="476" height="99"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="476" id="htE-52-tWo"/>
+                                    <constraint firstAttribute="height" constant="99" id="j2w-jj-qDv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="28"/>
+                                <color key="textColor" red="0.0061955091139999996" green="0.40543733949999999" blue="0.41088474679999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.51659214229999995" green="0.51659214229999995" blue="0.51659214229999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Krg-bw-gI4">
+                                <rect key="frame" x="420" y="408" width="172" height="32"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="172" id="ALU-FF-iND"/>
+                                    <constraint firstAttribute="height" constant="32" id="O1U-SK-fb7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="18"/>
+                                <state key="normal" title="MÉDIAS">
+                                    <color key="titleColor" red="0.0061955091139999996" green="0.40543733949999999" blue="0.41088474679999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HtG-IT-SH2">
+                                <rect key="frame" x="420" y="370" width="172" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Tjq-3Q-fHf"/>
+                                    <constraint firstAttribute="width" constant="172" id="oGj-Wg-N9x"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="18"/>
+                                <state key="normal" title="TÉLÉPHONES">
+                                    <color key="titleColor" red="0.0061955091139999996" green="0.40543733949999999" blue="0.41088474679999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUB-cd-77y">
+                                <rect key="frame" x="240" y="408" width="172" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="NiL-mm-Gq2"/>
+                                    <constraint firstAttribute="width" constant="172" id="T75-Ln-Eow"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="18"/>
+                                <state key="normal" title="COURRIELS">
+                                    <color key="titleColor" red="0.0061955091139999996" green="0.40543733949999999" blue="0.41088474679999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifq-MK-Rzi">
+                                <rect key="frame" x="240" y="370" width="172" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="APD-ad-qsj"/>
+                                    <constraint firstAttribute="width" constant="172" id="SBa-wK-gtX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="18"/>
+                                <state key="normal" title="NOMS">
+                                    <color key="titleColor" red="0.0061955091139999996" green="0.40543733949999999" blue="0.41088474679999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PII-4E-br5">
+                                <rect key="frame" x="60" y="408" width="172" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="172" id="8jB-Ns-puP"/>
+                                    <constraint firstAttribute="height" constant="30" id="XaL-hO-YCt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="18"/>
+                                <state key="normal" title="PARTICIPANTS">
+                                    <color key="titleColor" red="0.0061955091139999996" green="0.40543733949999999" blue="0.41088474679999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="347" placeholderIntrinsicHeight="40" text="Section d'aide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jUA-vy-Jg5">
                                 <rect key="frame" x="60" y="122" width="668" height="40"/>
                                 <constraints>
@@ -1282,42 +1387,99 @@
                                     <segue destination="fEO-y0-p40" kind="presentation" id="78U-J6-tae"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="347" placeholderIntrinsicHeight="40" text="- Dans cette fenêtre, vous avez accès aux statistiques plus spécifique avec l'aide des boutons suivants:  " lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6xv-cF-vsx">
-                                <rect key="frame" x="60" y="200" width="668" height="99"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="347" placeholderIntrinsicHeight="40" text="- Dans cette fenêtre, vous avez accès aux statistiques plus spécifique avec l'aide des boutons suivants:  " lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6xv-cF-vsx">
+                                <rect key="frame" x="50" y="170" width="668" height="99"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                 </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="668" id="NHy-J5-xeO"/>
+                                    <constraint firstAttribute="height" constant="99" id="eGf-f6-jxT"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="28"/>
                                 <color key="textColor" red="0.0061955091139999996" green="0.40543733949999999" blue="0.41088474679999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.51659214229999995" green="0.51659214229999995" blue="0.51659214229999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XC8-MK-Xfk">
-                                <rect key="frame" x="60" y="326" width="172" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XC8-MK-Xfk">
+                                <rect key="frame" x="60" y="494" width="172" height="68"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29703663790000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="172" id="Y7p-Vd-hbB"/>
+                                    <constraint firstAttribute="height" constant="68" id="yTY-ET-47y"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="18"/>
                                 <state key="normal" title="RÉINITIALISER">
                                     <color key="titleColor" red="0.0061955091139999996" green="0.40543733949999999" blue="0.41088474679999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <action selector="reset:" destination="fEO-y0-p40" eventType="touchUpInside" id="BKk-8I-Z84"/>
-                                </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MhX-ID-uHF">
+                                <rect key="frame" x="60" y="370" width="172" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="172" id="ava-DW-oBh"/>
+                                    <constraint firstAttribute="height" constant="30" id="oJE-Y4-a8K"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="vYl-U9-TYY"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="172" id="zwv-Fs-xrp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="18"/>
+                                <state key="normal" title="PROGRAMMES">
+                                    <color key="titleColor" red="0.0061955091139999996" green="0.40543733949999999" blue="0.41088474679999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select all2 .png" translatesAutoresizingMaskIntoConstraints="NO" id="hWE-9P-VJf">
+                                <rect key="frame" x="198" y="720" width="373" height="198"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="198" id="06f-MZ-6CA"/>
+                                    <constraint firstAttribute="width" constant="373" id="z8b-MZ-aDC"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.57975206069999996" blue="0.6755928457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="hWE-9P-VJf" firstAttribute="top" secondItem="h7v-1q-SXN" secondAttribute="bottom" constant="22" id="0ga-p7-qbH"/>
+                            <constraint firstItem="VUB-cd-77y" firstAttribute="leading" secondItem="PII-4E-br5" secondAttribute="trailing" constant="8" id="0gp-dm-TS2"/>
+                            <constraint firstItem="XC8-MK-Xfk" firstAttribute="top" secondItem="PII-4E-br5" secondAttribute="bottom" constant="56" id="2d1-3G-42W"/>
+                            <constraint firstItem="e86-AD-kYx" firstAttribute="leading" secondItem="XC8-MK-Xfk" secondAttribute="trailing" constant="20" id="5O3-dd-KBs"/>
+                            <constraint firstItem="pZm-DS-Fug" firstAttribute="leading" secondItem="hj9-5a-ggL" secondAttribute="leadingMargin" constant="40" id="6fK-um-XSc"/>
+                            <constraint firstItem="MhX-ID-uHF" firstAttribute="leading" secondItem="hj9-5a-ggL" secondAttribute="leadingMargin" constant="40" id="7aQ-oG-JqD"/>
+                            <constraint firstItem="Krg-bw-gI4" firstAttribute="leading" secondItem="VUB-cd-77y" secondAttribute="trailing" constant="8" id="7cj-4s-tfM"/>
                             <constraint firstAttribute="trailing" secondItem="Cjl-P1-OEp" secondAttribute="trailing" id="8HO-P3-7y2"/>
+                            <constraint firstItem="h7v-1q-SXN" firstAttribute="trailing" secondItem="jUA-vy-Jg5" secondAttribute="trailing" id="8ox-m4-Qdv"/>
+                            <constraint firstItem="PII-4E-br5" firstAttribute="top" secondItem="MhX-ID-uHF" secondAttribute="bottom" constant="8" id="Bj5-yx-kCS"/>
+                            <constraint firstItem="pZm-DS-Fug" firstAttribute="top" secondItem="6xv-cF-vsx" secondAttribute="bottom" constant="8" id="Bsh-Wk-Yci"/>
                             <constraint firstItem="yqe-rv-sgr" firstAttribute="top" secondItem="0Xz-qM-LYq" secondAttribute="bottom" constant="25" id="Cdk-0H-HZR"/>
+                            <constraint firstItem="HtG-IT-SH2" firstAttribute="leading" secondItem="ifq-MK-Rzi" secondAttribute="trailing" constant="8" id="CvF-ng-ajQ"/>
+                            <constraint firstItem="MhX-ID-uHF" firstAttribute="baseline" secondItem="HtG-IT-SH2" secondAttribute="baseline" id="DER-ct-sGG"/>
+                            <constraint firstItem="PII-4E-br5" firstAttribute="leading" secondItem="XC8-MK-Xfk" secondAttribute="leading" id="FWR-AV-fgv"/>
+                            <constraint firstItem="VUB-cd-77y" firstAttribute="top" secondItem="ifq-MK-Rzi" secondAttribute="bottom" constant="8" id="H2D-XF-TCn"/>
+                            <constraint firstItem="6xv-cF-vsx" firstAttribute="top" secondItem="jUA-vy-Jg5" secondAttribute="bottom" constant="8" id="Ja5-CB-MHr"/>
+                            <constraint firstItem="hWE-9P-VJf" firstAttribute="top" secondItem="h7v-1q-SXN" secondAttribute="bottom" constant="22" id="MP7-qn-bGo"/>
+                            <constraint firstItem="h7v-1q-SXN" firstAttribute="top" secondItem="e86-AD-kYx" secondAttribute="bottom" constant="25" id="PZs-LY-bDC"/>
+                            <constraint firstItem="VUB-cd-77y" firstAttribute="top" secondItem="ifq-MK-Rzi" secondAttribute="bottom" constant="8" id="UWW-qw-gPd"/>
+                            <constraint firstItem="PII-4E-br5" firstAttribute="leading" secondItem="h7v-1q-SXN" secondAttribute="leading" id="Uqq-lN-1ic"/>
+                            <constraint firstItem="Krg-bw-gI4" firstAttribute="top" secondItem="HtG-IT-SH2" secondAttribute="bottom" constant="8" id="Uwm-mH-KUu"/>
+                            <constraint firstItem="ifq-MK-Rzi" firstAttribute="leading" secondItem="MhX-ID-uHF" secondAttribute="trailing" constant="8" id="VZN-TK-lok"/>
+                            <constraint firstItem="6xv-cF-vsx" firstAttribute="centerX" secondItem="hj9-5a-ggL" secondAttribute="centerX" id="X5b-QD-O6e"/>
                             <constraint firstItem="jUA-vy-Jg5" firstAttribute="centerX" secondItem="hj9-5a-ggL" secondAttribute="centerX" constant="10" id="XPZ-zM-09a"/>
                             <constraint firstItem="Cjl-P1-OEp" firstAttribute="leading" secondItem="hj9-5a-ggL" secondAttribute="leading" id="YTI-9F-0Lc"/>
+                            <constraint firstItem="MhX-ID-uHF" firstAttribute="top" secondItem="hj9-5a-ggL" secondAttribute="top" constant="370" id="bIV-mw-E1Q"/>
                             <constraint firstItem="824-T7-9q2" firstAttribute="top" secondItem="Cjl-P1-OEp" secondAttribute="bottom" id="bij-U0-k3J"/>
                             <constraint firstItem="euc-fD-AOH" firstAttribute="centerX" secondItem="hj9-5a-ggL" secondAttribute="centerX" id="ceZ-hZ-jid"/>
+                            <constraint firstItem="PII-4E-br5" firstAttribute="trailing" secondItem="XC8-MK-Xfk" secondAttribute="trailing" id="eB1-yB-JwH"/>
                             <constraint firstItem="euc-fD-AOH" firstAttribute="top" secondItem="0Xz-qM-LYq" secondAttribute="bottom" constant="8" id="f47-6v-LsG"/>
+                            <constraint firstItem="XC8-MK-Xfk" firstAttribute="leading" secondItem="hj9-5a-ggL" secondAttribute="leadingMargin" constant="40" id="fIw-Tz-bWQ"/>
+                            <constraint firstItem="e86-AD-kYx" firstAttribute="top" secondItem="Krg-bw-gI4" secondAttribute="bottom" constant="35" id="h0M-J9-eNO"/>
+                            <constraint firstItem="PII-4E-br5" firstAttribute="leading" secondItem="hj9-5a-ggL" secondAttribute="leadingMargin" constant="40" id="kZg-xs-8iK"/>
+                            <constraint firstItem="MhX-ID-uHF" firstAttribute="baseline" secondItem="ifq-MK-Rzi" secondAttribute="baseline" id="mUE-e1-CIW"/>
                             <constraint firstItem="Cjl-P1-OEp" firstAttribute="top" secondItem="hj9-5a-ggL" secondAttribute="top" id="ncd-mc-y3H"/>
+                            <constraint firstItem="h7v-1q-SXN" firstAttribute="trailing" secondItem="e86-AD-kYx" secondAttribute="trailing" id="nko-N0-QnF"/>
                             <constraint firstItem="jUA-vy-Jg5" firstAttribute="top" secondItem="euc-fD-AOH" secondAttribute="bottom" constant="31" id="oZG-RR-2YO"/>
+                            <constraint firstItem="hWE-9P-VJf" firstAttribute="centerX" secondItem="hj9-5a-ggL" secondAttribute="centerX" id="sM3-DO-Tpe"/>
+                            <constraint firstAttribute="bottom" secondItem="h7v-1q-SXN" secondAttribute="bottom" constant="326" id="wiy-aC-Ydc"/>
+                            <constraint firstItem="PII-4E-br5" firstAttribute="top" secondItem="MhX-ID-uHF" secondAttribute="bottom" constant="8" id="wuC-o0-zTg"/>
+                            <constraint firstItem="Krg-bw-gI4" firstAttribute="top" secondItem="HtG-IT-SH2" secondAttribute="bottom" constant="8" id="z17-zA-FPb"/>
                             <constraint firstItem="yqe-rv-sgr" firstAttribute="leading" secondItem="hj9-5a-ggL" secondAttribute="leadingMargin" id="z1a-jv-qcH"/>
                         </constraints>
                     </view>
@@ -1333,6 +1495,7 @@
         <image name="info_icon2.png" width="225" height="225"/>
         <image name="logo.png" width="266" height="185"/>
         <image name="save.png" width="519" height="333"/>
+        <image name="select all2 .png" width="1100" height="450"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="34R-z7-7Gr"/>
